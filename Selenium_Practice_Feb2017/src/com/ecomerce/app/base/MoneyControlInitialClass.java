@@ -5,6 +5,8 @@ import java.sql.Driver;
 import org.eclipse.jdt.internal.compiler.ast.SuperReference;
 import org.openqa.selenium.WebDriver;
 
+import com.thoughtworks.selenium.Selenium;
+
 public class MoneyControlInitialClass{
 	public static WebDriver driver = null;
 	
@@ -19,6 +21,7 @@ public class MoneyControlInitialClass{
 		driver= AppLoad.launchingApplicaion(url);
 		Thread.sleep(1000);
 		System.out.println("Application is launched ");
+		
 	}
 	//public String hello = "HELLO";
 	

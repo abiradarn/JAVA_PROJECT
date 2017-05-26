@@ -1,0 +1,2 @@
+Java InputStream to String Example
+        This Java InputStream to String example shows how to convert InputStream to String in Java.

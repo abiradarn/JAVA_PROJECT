@@ -12,6 +12,8 @@ public class DragAndDrop {
 		System.setProperty("webdriver.firefox.bin","F://Selenium/selenium-firefox-driver-2.0a5.jar");
 		
 		
+		
+		
 	}
 	
 }

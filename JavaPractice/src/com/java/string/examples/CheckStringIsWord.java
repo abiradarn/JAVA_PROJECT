@@ -16,7 +16,7 @@ public class CheckStringIsWord {
 	
 	public CheckStringIsWord() throws IOException {
 		// TODO Auto-generated constructor stub
-		
+		System.out.println("Consrtuctor");
 		Path path1 = Paths.get("words.txt");
 		 Path path = Paths.get("words.txt");
 	        byte[] readBytes = Files.readAllBytes(path);
@@ -48,10 +48,10 @@ public class CheckStringIsWord {
     }
 
 	
-	public static void main(String[] args) {
-		System.out.println("Hai");
+	public static void main(String[] args) throws IOException {
+		//System.out.println("Hai");
 		
-		String input;
+		/*String input;
         try {
             System.out.println("Enter the input");
             Scanner s = new  Scanner(System.in);
@@ -66,7 +66,11 @@ public class CheckStringIsWord {
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-        }
+        }*/
+		
+		
+		//System.out.println(check_for_word("RANI"));
+		CheckStringIsWord isWord = new CheckStringIsWord();
 		
 		
 	}
