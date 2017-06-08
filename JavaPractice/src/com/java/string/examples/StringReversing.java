@@ -77,7 +77,7 @@ public class StringReversing {
 					return "";
 					
 				}
-				System.out.println(string +"  " +string.length());
+				//System.out.println(string +"  " +string.length());
 				return string.charAt(string.length()-1) + reverse(string.substring(0,string.length()-1));
 			}
 
