@@ -1,8 +1,8 @@
 package com.selenium.actiTime;
 
-import org.openqa.selenium.By;
+/*import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;*/
 
 public class LoginPage {
 	
@@ -10,7 +10,7 @@ public class LoginPage {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		WebDriver driver = new FirefoxDriver();
+		/*WebDriver driver = (WebDriver) new FirefoxDriver();
 		driver.get("http://abhi-pc/login.do");
 		System.out.println(driver.getTitle());
 		driver.findElement(By.name("username")).sendKeys("admin");
@@ -19,7 +19,7 @@ public class LoginPage {
 		Thread.sleep(500);
 		
 		System.out.println(driver.getTitle());
-		
+		*/
 	}
 
 }

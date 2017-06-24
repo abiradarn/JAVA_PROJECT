@@ -1,10 +1,10 @@
 package com.selenium.karthik.examples;
 
-import org.openqa.selenium.WebDriver;
+/*import org.openqa.selenium.WebDriver;*/
 
 public class DragAndDrop {
 
-	WebDriver driver = null;
+	/*WebDriver driver = null;
 	
 	
 	public static void  setupProfile(){
@@ -15,5 +15,5 @@ public class DragAndDrop {
 		
 		
 	}
-	
+	*/
 }

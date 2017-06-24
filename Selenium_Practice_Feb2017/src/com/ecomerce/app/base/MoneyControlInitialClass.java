@@ -2,18 +2,18 @@ package com.ecomerce.app.base;
 
 import java.sql.Driver;
 
-import org.eclipse.jdt.internal.compiler.ast.SuperReference;
-import org.openqa.selenium.WebDriver;
+//import org.eclipse.jdt.internal.compiler.ast.SuperReference;
+/*import org.openqa.selenium.WebDriver;
 
-import com.thoughtworks.selenium.Selenium;
+import com.thoughtworks.selenium.Selenium;*/
 
 public class MoneyControlInitialClass{
-	public static WebDriver driver = null;
+//	public static WebDriver driver = null;
 	
 	
 	
 	
-	public static String url = "http://www.moneycontrol.com/india/stockpricequote/consumer-goods-white-goods/symphony/SCS04";
+	/*public static String url = "http://www.moneycontrol.com/india/stockpricequote/consumer-goods-white-goods/symphony/SCS04";
 	
 	public static void launch() throws InterruptedException{
 		System.out.println("Loading an Application");
@@ -38,7 +38,7 @@ public class MoneyControlInitialClass{
 		appClose(driver);
 		//driver= AppLoad.launchingApplicaion(url);
 	}
-	
+	*/
 	
 	
 	
